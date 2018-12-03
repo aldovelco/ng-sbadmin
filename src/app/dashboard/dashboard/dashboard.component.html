@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-md-3 align-items-stretch" *ngFor="let overview of overviews">
+    <app-overview [icon]="overview.icon" [count]="overview.count" [color]="overview.color">
+      {{ overview.title }}
+    </app-overview>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-9"><app-timeline></app-timeline></div>
+
+  <div class="col"><app-notifications></app-notifications></div>
+</div>

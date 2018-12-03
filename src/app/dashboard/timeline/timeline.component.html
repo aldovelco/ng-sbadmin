@@ -1,0 +1,9 @@
+<div class="card mt-4">
+  <div class="card-header">Responsive Timeline</div>
+
+  <div class="card-body">
+    <ul class="timeline">
+      <app-timeline-item *ngFor="let item of items; odd as isOdd" [item]="item" [inverted]="isOdd"></app-timeline-item>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+:host {
+  min-height: 100vh;
+}
+
+.site-wrapper {
+  display: flex;
+  min-height: 100%;
+  align-items: stretch;
+
+  main {
+    flex: 1;
+    padding: 0 15px;
+    background: white;
+  }
+}
+
+.sidebar {
+  min-height: 100%;
+  min-width: 225px;
+  width: 225px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #eee;
+}

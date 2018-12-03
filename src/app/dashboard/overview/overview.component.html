@@ -1,0 +1,19 @@
+<div class="card border-{{color}}">
+  <div class="card-body bg-{{color}} text-light">
+    <div class="card-title">
+      <div class="row">
+        <div class="col col-xs-3"><i *ngIf="icon" class="fa fa-4x fa-fw {{icon}}"></i></div>
+
+        <div class="col col-xs-9 text-right">
+          <div class="count">{{ count }}</div>
+          <div><ng-content></ng-content></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-footer text-{{color}} d-flex justify-content-between">
+    <span>View Details</span>
+    <a href="javascript:void(0)" class="card-inverse text-{{color}}"> <i class="fa fa-arrow-circle-right"></i> </a>
+  </div>
+</div>

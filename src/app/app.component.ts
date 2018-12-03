@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng-sbadmin';
+  collapsed = true;
+
+  toggleNavbar() {
+    this.collapsed = !this.collapsed;
+  }
 }

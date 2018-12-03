@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "sb-ui": [
+        "dist/sb-ui"
+      ],
+      "sb-ui/*": [
+        "dist/sb-ui/*"
+      ]
+    }
   }
 }

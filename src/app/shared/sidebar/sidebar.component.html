@@ -1,0 +1,46 @@
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <div class="sidebar-search input-group mb-3">
+      <input type="text" class="form-control" placeholder="Search..." />
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/dashboard']" routerLinkActive="active">
+      <i class="fas fa-tachometer-alt fa-fw"></i> Dashboard
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/charts']" routerLinkActive="active">
+      <i class="fas fa-chart-bar fa-fw"></i> Charts<span class="fa arrow"></span
+    ></a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/tables']" routerLinkActive="active">
+      <i class="fas fa-table fa-fw"></i> Tables
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/forms']" routerLinkActive="active">
+      <i class="fas fa-edit fa-fw"></i> Forms
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/ui-elements']" routerLinkActive="active">
+      <i class="fas fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span>
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/sample-pages']" routerLinkActive="active">
+      <i class="fas fa-copy fa-fw"></i> Sample Pages<span class="fa arrow"></span>
+    </a>
+  </li>
+</ul>
